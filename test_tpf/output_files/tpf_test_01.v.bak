@@ -1,0 +1,11 @@
+module simple_counter (CLOCK_5, pin);
+input CLOCK_5 ;
+output pin;
+reg [31:0] counter_out; 
+
+
+always @ (posedge CLOCK_5) // on positive clock edge
+begin
+counter_out <= counter_out + 1;// increment counter
+end
+endmodule 

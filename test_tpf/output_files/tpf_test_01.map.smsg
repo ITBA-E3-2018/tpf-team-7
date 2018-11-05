@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at display_updater.v(95): always construct contains both blocking and non-blocking assignments File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 95

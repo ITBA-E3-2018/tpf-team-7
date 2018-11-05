@@ -1,0 +1,23 @@
+-- begin_signature
+-- display_updater
+-- end_signature
+WIDTH=5;
+DEPTH=12;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	11 :	XXXXX;
+	10 :	00000;
+	9 :	01001;
+	8 :	01000;
+	7 :	00111;
+	6 :	00110;
+	5 :	00101;
+	4 :	00100;
+	3 :	00011;
+	2 :	00010;
+	1 :	00001;
+	0 :	00000;
+END;
