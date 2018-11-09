@@ -51,7 +51,7 @@ module display_updater(clk, num_data, r, g, b, h_sync, v_sync);
 	always @(posedge clk) begin
 		if (col >= 70 & col < 510 & row >= 100 & row < 150) begin
 
-			r <= 1'b0;
+			r <= numbers[ num_data[ (((col-70)/40)*4) +:4]*20 + 20 - (( ( (col - 70) % 40)/10) + ( (row - 100)/10) * 4) ];
 			g <= numbers[ num_data[ (((col-70)/40)*4) +:4]*20 + 20 - (( ( (col - 70) % 40)/10) + ( (row - 100)/10) * 4) ];//1'b1; //numbers[ (( ( (col - 70) % 40)/10) + ( (row - 100)/10) * 4) ];
 			b <= numbers[ num_data[ (((col-70)/40)*4) +:4]*20 + 20 - (( ( (col - 70) % 40)/10) + ( (row - 100)/10) * 4) ];
 			

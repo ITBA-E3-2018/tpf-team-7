@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at display_updater.v(95): always construct contains both blocking and non-blocking assignments File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 95
+Warning (10268): Verilog HDL information at reloj.v(14): always construct contains both blocking and non-blocking assignments File: //DESKTOP-2BLQAAQ/Users/newtonis/tpf-team-7/test_tpf/reloj.v Line: 14

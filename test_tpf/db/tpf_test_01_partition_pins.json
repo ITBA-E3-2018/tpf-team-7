@@ -4,6 +4,10 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "r",
+					"strict" : false
+				},
+				{
 					"name" : "g",
 					"strict" : false
 				},
@@ -17,6 +21,10 @@
 				},
 				{
 					"name" : "v_sync",
+					"strict" : false
+				},
+				{
+					"name" : "ss",
 					"strict" : false
 				}
 			]

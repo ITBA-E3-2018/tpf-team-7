@@ -1,5 +1,5 @@
 Flow report for tpf_test_01
-Sun Nov 04 21:33:10 2018
+Thu Nov 08 21:50:56 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Nov 04 21:33:06 2018       ;
+; Flow Status                        ; Successful - Thu Nov 08 21:50:49 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; tpf_test_01                                 ;
 ; Top-level Entity Name              ; tpf_test_01                                 ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 1,271 / 22,320 ( 6 % )                      ;
-;     Total combinational functions  ; 1,258 / 22,320 ( 6 % )                      ;
-;     Dedicated logic registers      ; 60 / 22,320 ( < 1 % )                       ;
-; Total registers                    ; 60                                          ;
-; Total pins                         ; 6 / 154 ( 4 % )                             ;
+; Total logic elements               ; 1,424 / 22,320 ( 6 % )                      ;
+;     Total combinational functions  ; 1,406 / 22,320 ( 6 % )                      ;
+;     Dedicated logic registers      ; 63 / 22,320 ( < 1 % )                       ;
+; Total registers                    ; 63                                          ;
+; Total pins                         ; 8 / 154 ( 5 % )                             ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                             ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/04/2018 21:32:39 ;
+; Start date & time ; 11/08/2018 21:50:05 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; tpf_test_01         ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 128454783422697.154139595909664        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 128454783422697.154174260506564        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll_1.bsf                              ; --            ; --          ; --         ;
@@ -102,11 +102,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4821 MB             ; 00:00:29                           ;
-; Fitter               ; 00:00:08     ; 1.0                     ; 5551 MB             ; 00:00:12                           ;
-; Assembler            ; 00:00:01     ; 1.0                     ; 4697 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4805 MB             ; 00:00:03                           ;
-; Total                ; 00:00:26     ; --                      ; --                  ; 00:00:45                           ;
+; Analysis & Synthesis ; 00:00:26     ; 1.0                     ; 4824 MB             ; 00:00:32                           ;
+; Fitter               ; 00:00:11     ; 1.0                     ; 5552 MB             ; 00:00:13                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4697 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 4806 MB             ; 00:00:03                           ;
+; Total                ; 00:00:46     ; --                      ; --                  ; 00:00:49                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
