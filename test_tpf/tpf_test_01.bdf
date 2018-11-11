@@ -303,7 +303,7 @@ refer to the applicable agreement for further details.
 (symbol
 	(rect 272 424 448 536)
 	(text "reloj" (rect 5 0 25 12)(font "Arial" ))
-	(text "inst1" (rect 8 96 30 113)(font "Intel Clear" ))
+	(text "inst1" (rect 8 96 31 108)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -329,7 +329,7 @@ refer to the applicable agreement for further details.
 		(pt 176 32)
 		(output)
 		(text "num_data[43..0]" (rect 0 0 80 12)(font "Arial" ))
-		(text "num_data[43..0]" (rect 88 27 168 39)(font "Arial" ))
+		(text "num_data[43..0]" (rect 88 27 155 39)(font "Arial" ))
 		(line (pt 176 32)(pt 160 32)(line_width 3))
 	)
 	(drawing

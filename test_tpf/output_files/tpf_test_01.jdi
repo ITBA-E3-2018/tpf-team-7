@@ -1,8 +1,8 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="a9599cddb7842f4ac6cd"/>
+    <hash md5_digest_80b="95e92c7d6ab23bfb500a"/>
   </project>
   <file_info>
-    <file device="EP4CE22F17C6" path="//DESKTOP-2BLQAAQ/Users/newtonis/tpf-team-7/test_tpf/output_files/tpf_test_01.sof" usercode="0xFFFFFFFF"/>
+    <file device="EP4CE22F17C6" path="tpf_test_01.sof" usercode="0xFFFFFFFF"/>
   </file_info>
 </sld_project_info>

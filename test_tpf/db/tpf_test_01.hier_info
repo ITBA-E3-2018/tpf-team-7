@@ -251,9 +251,11 @@ inclk[1] => pll1.CLK1
 
 
 |tpf_test_01|reloj:inst1
-rst => ~NO_FANOUT~
+rst => always0.IN1
+rst => rst_old.DATAIN
 ss => ss_old.DATAIN
 ss => always0.IN1
+clk => rst_old.CLK
 clk => ss_old.CLK
 clk => hs[0].CLK
 clk => hs[1].CLK

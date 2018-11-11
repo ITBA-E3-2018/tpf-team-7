@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE22F17) Path("C:/Users/newtonis/tpf-team-7/test_tpf/output_files/") File("tpf_test_01.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE22F17) Path("C:/Users/ariel/tpf-team-7/test_tpf/output_files/") File("tpf_test_01.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

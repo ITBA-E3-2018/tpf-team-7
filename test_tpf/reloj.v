@@ -10,35 +10,44 @@ module reloj(rst, ss, clk, num_data);
 	reg [6:0] hs = 0;
 	reg advance = 0;
 	reg ss_old = 0;
-
+	reg rst_old = 0;
+	
 	always @(posedge clk) begin
 		if (ss == 0 && ss_old == 1) begin
 			advance <= !advance;
 			
 		end
-		if (advance) begin
-			if (fms < 9999) begin
-				fms <= fms + 1;
-			end else begin
-				fms <= 0;
-				if (sec < 59) begin
-					sec <= sec + 1;
+		if (rst == 1 && rst_old == 0) begin
+			fms <= 0;
+			sec <= 0;
+			min <= 0;
+			hs <= 0;
+		end else begin
+			if (advance) begin
+				if (fms < 9999) begin
+					fms <= fms + 1;
 				end else begin
-					sec <= 0;
-					if (min < 59) begin
-						min <= min + 1;
+					fms <= 0;
+					if (sec < 59) begin
+						sec <= sec + 1;
 					end else begin
-						min <= 0;
-						if (hs < 23) begin
-							hs <= hs + 1;
+						sec <= 0;
+						if (min < 59) begin
+							min <= min + 1;
 						end else begin
-							hs <= 0;
+							min <= 0;
+							if (hs < 23) begin
+								hs <= hs + 1;
+							end else begin
+								hs <= 0;
+							end
 						end
 					end
 				end
 			end
 		end
 		ss_old <= ss;
+		rst_old <= rst;
 	end
 	
 	assign num_data[0+:4] = hs / 10;

@@ -24,6 +24,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
 					"name" : "ss",
 					"strict" : false
 				}

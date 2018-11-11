@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Thu Nov 08 21:50:31 2018
+Analysis & Synthesis Status : Successful - Sat Nov 10 00:54:24 2018
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : tpf_test_01
 Top-level Entity Name : tpf_test_01
 Family : Cyclone IV E
-Total logic elements : 1,408
-    Total combinational functions : 1,406
-    Dedicated logic registers : 63
-Total registers : 63
+Total logic elements : 1,414
+    Total combinational functions : 1,411
+    Dedicated logic registers : 64
+Total registers : 64
 Total pins : 8
 Total virtual pins : 0
 Total memory bits : 0
