@@ -1,5 +1,5 @@
 Analysis & Synthesis report for tpf_test_01
-Sat Nov 10 00:54:24 2018
+Sat Nov 10 19:11:55 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -18,24 +18,27 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  10. Multiplexer Restructuring Statistics (Restructuring Performed)
  11. Parameter Settings for User Entity Instance: pll_1:inst10|altpll:altpll_component
  12. Parameter Settings for User Entity Instance: pll3:inst|altpll:altpll_component
- 13. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Mod0
- 14. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div1
- 15. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Mod0
- 16. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div0
- 17. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div2
- 18. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Mod2
- 19. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div1
- 20. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Mod1
- 21. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div0
- 22. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div4
- 23. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div3
- 24. Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Mod3
- 25. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div2
- 26. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div5
- 27. altpll Parameter Settings by Entity Instance
- 28. Post-Synthesis Netlist Statistics for Top Partition
- 29. Elapsed Time Per Partition
- 30. Analysis & Synthesis Messages
+ 13. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Mod3
+ 14. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div10
+ 15. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Mod0
+ 16. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div1
+ 17. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div11
+ 18. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div9
+ 19. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div2
+ 20. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Mod0
+ 21. Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div0
+ 22. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div2
+ 23. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Mod2
+ 24. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div1
+ 25. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Mod1
+ 26. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div0
+ 27. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div4
+ 28. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div3
+ 29. Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Mod3
+ 30. altpll Parameter Settings by Entity Instance
+ 31. Post-Synthesis Netlist Statistics for Top Partition
+ 32. Elapsed Time Per Partition
+ 33. Analysis & Synthesis Messages
 
 
 
@@ -61,13 +64,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Nov 10 00:54:24 2018       ;
+; Analysis & Synthesis Status        ; Successful - Sat Nov 10 19:11:55 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; tpf_test_01                                 ;
 ; Top-level Entity Name              ; tpf_test_01                                 ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 1,414                                       ;
-;     Total combinational functions  ; 1,411                                       ;
+; Total logic elements               ; 1,858                                       ;
+;     Total combinational functions  ; 1,855                                       ;
 ;     Dedicated logic registers      ; 64                                          ;
 ; Total registers                    ; 64                                          ;
 ; Total pins                         ; 8                                           ;
@@ -177,7 +180,9 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -186,44 +191,45 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                               ; Library ;
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
-; output_files/display_updater.v   ; yes             ; User Verilog HDL File              ; C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v          ;         ;
-; pll_1.v                          ; yes             ; User Wizard-Generated File         ; C:/Users/ariel/tpf-team-7/test_tpf/pll_1.v                                 ;         ;
-; reloj.v                          ; yes             ; User Verilog HDL File              ; C:/Users/ariel/tpf-team-7/test_tpf/reloj.v                                 ;         ;
-; pll3.v                           ; yes             ; User Wizard-Generated File         ; C:/Users/ariel/tpf-team-7/test_tpf/pll3.v                                  ;         ;
-; tpf_test_01.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/ariel/tpf-team-7/test_tpf/tpf_test_01.bdf                         ;         ;
+; output_files/display_updater.v   ; yes             ; User Verilog HDL File              ; C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v       ;         ;
+; pll_1.v                          ; yes             ; User Wizard-Generated File         ; C:/Users/newtonis/tpf-team-7/test_tpf/pll_1.v                              ;         ;
+; reloj.v                          ; yes             ; User Verilog HDL File              ; C:/Users/newtonis/tpf-team-7/test_tpf/reloj.v                              ;         ;
+; pll3.v                           ; yes             ; User Wizard-Generated File         ; C:/Users/newtonis/tpf-team-7/test_tpf/pll3.v                               ;         ;
+; tpf_test_01.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/newtonis/tpf-team-7/test_tpf/tpf_test_01.bdf                      ;         ;
+; output_files/number2digit.v      ; yes             ; User Verilog HDL File              ; C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v          ;         ;
 ; altpll.tdf                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf          ;         ;
 ; aglobal181.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc      ;         ;
 ; stratix_pll.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc     ;         ;
 ; stratixii_pll.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc   ;         ;
 ; cycloneii_pll.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc   ;         ;
-; db/pll_1_altpll.v                ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/pll_1_altpll.v                       ;         ;
-; db/pll3_altpll.v                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/pll3_altpll.v                        ;         ;
+; db/pll_1_altpll.v                ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/pll_1_altpll.v                    ;         ;
+; db/pll3_altpll.v                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/pll3_altpll.v                     ;         ;
 ; lpm_divide.tdf                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
 ; abs_divider.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
 ; sign_div_unsign.inc              ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
-; db/lpm_divide_5bm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_5bm.tdf                   ;         ;
-; db/sign_div_unsign_qlh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_qlh.tdf              ;         ;
-; db/alt_u_div_87f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_87f.tdf                    ;         ;
-; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/add_sub_7pc.tdf                      ;         ;
-; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/add_sub_8pc.tdf                      ;         ;
-; db/lpm_divide_hhm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_hhm.tdf                   ;         ;
-; db/sign_div_unsign_9kh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_9kh.tdf              ;         ;
-; db/alt_u_div_64f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_64f.tdf                    ;         ;
-; db/lpm_divide_l9m.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_l9m.tdf                   ;         ;
-; db/sign_div_unsign_akh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_akh.tdf              ;         ;
-; db/alt_u_div_94f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_94f.tdf                    ;         ;
-; db/lpm_divide_2jm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_2jm.tdf                   ;         ;
-; db/lpm_divide_ihm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_ihm.tdf                   ;         ;
-; db/lpm_divide_4jm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_4jm.tdf                   ;         ;
-; db/sign_div_unsign_slh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_slh.tdf              ;         ;
-; db/alt_u_div_c7f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_c7f.tdf                    ;         ;
-; db/lpm_divide_1jm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_1jm.tdf                   ;         ;
-; db/sign_div_unsign_plh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_plh.tdf              ;         ;
-; db/alt_u_div_77f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf                    ;         ;
-; db/lpm_divide_4bm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_4bm.tdf                   ;         ;
-; db/lpm_divide_0jm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_0jm.tdf                   ;         ;
-; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_olh.tdf              ;         ;
-; db/alt_u_div_47f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_47f.tdf                    ;         ;
+; db/lpm_divide_5bm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_5bm.tdf                ;         ;
+; db/sign_div_unsign_qlh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_qlh.tdf           ;         ;
+; db/alt_u_div_87f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_87f.tdf                 ;         ;
+; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/add_sub_7pc.tdf                   ;         ;
+; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/add_sub_8pc.tdf                   ;         ;
+; db/lpm_divide_hhm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_hhm.tdf                ;         ;
+; db/sign_div_unsign_9kh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_9kh.tdf           ;         ;
+; db/alt_u_div_64f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_64f.tdf                 ;         ;
+; db/lpm_divide_0jm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_0jm.tdf                ;         ;
+; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_olh.tdf           ;         ;
+; db/alt_u_div_47f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_47f.tdf                 ;         ;
+; db/lpm_divide_2jm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_2jm.tdf                ;         ;
+; db/lpm_divide_l9m.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_l9m.tdf                ;         ;
+; db/sign_div_unsign_akh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_akh.tdf           ;         ;
+; db/alt_u_div_94f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_94f.tdf                 ;         ;
+; db/lpm_divide_ihm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_ihm.tdf                ;         ;
+; db/lpm_divide_4jm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_4jm.tdf                ;         ;
+; db/sign_div_unsign_slh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_slh.tdf           ;         ;
+; db/alt_u_div_c7f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_c7f.tdf                 ;         ;
+; db/lpm_divide_1jm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_1jm.tdf                ;         ;
+; db/sign_div_unsign_plh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_plh.tdf           ;         ;
+; db/alt_u_div_77f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf                 ;         ;
+; db/lpm_divide_4bm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_4bm.tdf                ;         ;
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
 
 
@@ -232,17 +238,17 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                                         ;
 +---------------------------------------------+-------------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 1,414                                                                         ;
+; Estimated Total logic elements              ; 1,858                                                                         ;
 ;                                             ;                                                                               ;
-; Total combinational functions               ; 1411                                                                          ;
+; Total combinational functions               ; 1855                                                                          ;
 ; Logic element usage by number of LUT inputs ;                                                                               ;
-;     -- 4 input functions                    ; 282                                                                           ;
-;     -- 3 input functions                    ; 364                                                                           ;
-;     -- <=2 input functions                  ; 765                                                                           ;
+;     -- 4 input functions                    ; 392                                                                           ;
+;     -- 3 input functions                    ; 459                                                                           ;
+;     -- <=2 input functions                  ; 1004                                                                          ;
 ;                                             ;                                                                               ;
 ; Logic elements by mode                      ;                                                                               ;
-;     -- normal mode                          ; 956                                                                           ;
-;     -- arithmetic mode                      ; 455                                                                           ;
+;     -- normal mode                          ; 1286                                                                          ;
+;     -- arithmetic mode                      ; 569                                                                           ;
 ;                                             ;                                                                               ;
 ; Total registers                             ; 64                                                                            ;
 ;     -- Dedicated logic registers            ; 64                                                                            ;
@@ -257,82 +263,95 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                               ;
 ; Maximum fan-out node                        ; pll3:inst|altpll:altpll_component|pll3_altpll:auto_generated|wire_pll1_clk[0] ;
 ; Maximum fan-out                             ; 40                                                                            ;
-; Total fan-out                               ; 3797                                                                          ;
-; Average fan-out                             ; 2.54                                                                          ;
+; Total fan-out                               ; 4942                                                                          ;
+; Average fan-out                             ; 2.55                                                                          ;
 +---------------------------------------------+-------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                             ;
-+-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                 ; Entity Name         ; Library Name ;
-+-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |tpf_test_01                              ; 1411 (0)            ; 64 (0)                    ; 0           ; 0            ; 0       ; 0         ; 8    ; 0            ; |tpf_test_01                                                                                                                        ; tpf_test_01         ; work         ;
-;    |display_updater:inst11|               ; 782 (178)           ; 25 (25)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11                                                                                                 ; display_updater     ; work         ;
-;       |lpm_divide:Div0|                   ; 179 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
-;          |lpm_divide_2jm:auto_generated|  ; 179 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div0|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm      ; work         ;
-;             |sign_div_unsign_qlh:divider| ; 179 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div0|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh ; work         ;
-;                |alt_u_div_87f:divider|    ; 179 (179)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div0|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f       ; work         ;
-;       |lpm_divide:Div1|                   ; 31 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div1                                                                                 ; lpm_divide          ; work         ;
-;          |lpm_divide_hhm:auto_generated|  ; 31 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div1|lpm_divide_hhm:auto_generated                                                   ; lpm_divide_hhm      ; work         ;
-;             |sign_div_unsign_9kh:divider| ; 31 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div1|lpm_divide_hhm:auto_generated|sign_div_unsign_9kh:divider                       ; sign_div_unsign_9kh ; work         ;
-;                |alt_u_div_64f:divider|    ; 31 (31)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div1|lpm_divide_hhm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_64f:divider ; alt_u_div_64f       ; work         ;
-;       |lpm_divide:Div2|                   ; 110 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div2                                                                                 ; lpm_divide          ; work         ;
-;          |lpm_divide_0jm:auto_generated|  ; 110 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div2|lpm_divide_0jm:auto_generated                                                   ; lpm_divide_0jm      ; work         ;
-;             |sign_div_unsign_olh:divider| ; 110 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div2|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider                       ; sign_div_unsign_olh ; work         ;
-;                |alt_u_div_47f:divider|    ; 110 (110)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div2|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider|alt_u_div_47f:divider ; alt_u_div_47f       ; work         ;
-;       |lpm_divide:Div5|                   ; 109 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div5                                                                                 ; lpm_divide          ; work         ;
-;          |lpm_divide_0jm:auto_generated|  ; 109 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div5|lpm_divide_0jm:auto_generated                                                   ; lpm_divide_0jm      ; work         ;
-;             |sign_div_unsign_olh:divider| ; 109 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div5|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider                       ; sign_div_unsign_olh ; work         ;
-;                |alt_u_div_47f:divider|    ; 109 (109)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div5|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider|alt_u_div_47f:divider ; alt_u_div_47f       ; work         ;
-;       |lpm_divide:Mod0|                   ; 175 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod0                                                                                 ; lpm_divide          ; work         ;
-;          |lpm_divide_5bm:auto_generated|  ; 175 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod0|lpm_divide_5bm:auto_generated                                                   ; lpm_divide_5bm      ; work         ;
-;             |sign_div_unsign_qlh:divider| ; 175 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod0|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh ; work         ;
-;                |alt_u_div_87f:divider|    ; 175 (175)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod0|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f       ; work         ;
-;    |pll3:inst|                            ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll3:inst                                                                                                              ; pll3                ; work         ;
-;       |altpll:altpll_component|           ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll3:inst|altpll:altpll_component                                                                                      ; altpll              ; work         ;
-;          |pll3_altpll:auto_generated|     ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll3:inst|altpll:altpll_component|pll3_altpll:auto_generated                                                           ; pll3_altpll         ; work         ;
-;    |pll_1:inst10|                         ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll_1:inst10                                                                                                           ; pll_1               ; work         ;
-;       |altpll:altpll_component|           ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll_1:inst10|altpll:altpll_component                                                                                   ; altpll              ; work         ;
-;          |pll_1_altpll:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll_1:inst10|altpll:altpll_component|pll_1_altpll:auto_generated                                                       ; pll_1_altpll        ; work         ;
-;    |reloj:inst1|                          ; 629 (57)            ; 39 (39)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1                                                                                                            ; reloj               ; work         ;
-;       |lpm_divide:Div0|                   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div0                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_ihm:auto_generated|  ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div0|lpm_divide_ihm:auto_generated                                                              ; lpm_divide_ihm      ; work         ;
-;             |sign_div_unsign_akh:divider| ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div0|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider                                  ; sign_div_unsign_akh ; work         ;
-;                |alt_u_div_94f:divider|    ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div0|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider            ; alt_u_div_94f       ; work         ;
-;       |lpm_divide:Div1|                   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div1                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_ihm:auto_generated|  ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div1|lpm_divide_ihm:auto_generated                                                              ; lpm_divide_ihm      ; work         ;
-;             |sign_div_unsign_akh:divider| ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div1|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider                                  ; sign_div_unsign_akh ; work         ;
-;                |alt_u_div_94f:divider|    ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div1|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider            ; alt_u_div_94f       ; work         ;
-;       |lpm_divide:Div2|                   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div2                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_ihm:auto_generated|  ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div2|lpm_divide_ihm:auto_generated                                                              ; lpm_divide_ihm      ; work         ;
-;             |sign_div_unsign_akh:divider| ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div2|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider                                  ; sign_div_unsign_akh ; work         ;
-;                |alt_u_div_94f:divider|    ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div2|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider            ; alt_u_div_94f       ; work         ;
-;       |lpm_divide:Div3|                   ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div3                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_1jm:auto_generated|  ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div3|lpm_divide_1jm:auto_generated                                                              ; lpm_divide_1jm      ; work         ;
-;             |sign_div_unsign_plh:divider| ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider                                  ; sign_div_unsign_plh ; work         ;
-;                |alt_u_div_77f:divider|    ; 75 (75)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider            ; alt_u_div_77f       ; work         ;
-;       |lpm_divide:Div4|                   ; 158 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div4                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_4jm:auto_generated|  ; 158 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div4|lpm_divide_4jm:auto_generated                                                              ; lpm_divide_4jm      ; work         ;
-;             |sign_div_unsign_slh:divider| ; 158 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div4|lpm_divide_4jm:auto_generated|sign_div_unsign_slh:divider                                  ; sign_div_unsign_slh ; work         ;
-;                |alt_u_div_c7f:divider|    ; 158 (158)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Div4|lpm_divide_4jm:auto_generated|sign_div_unsign_slh:divider|alt_u_div_c7f:divider            ; alt_u_div_c7f       ; work         ;
-;       |lpm_divide:Mod0|                   ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod0                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_l9m:auto_generated|  ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod0|lpm_divide_l9m:auto_generated                                                              ; lpm_divide_l9m      ; work         ;
-;             |sign_div_unsign_akh:divider| ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod0|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider                                  ; sign_div_unsign_akh ; work         ;
-;                |alt_u_div_94f:divider|    ; 46 (46)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod0|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider            ; alt_u_div_94f       ; work         ;
-;       |lpm_divide:Mod1|                   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod1                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_l9m:auto_generated|  ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod1|lpm_divide_l9m:auto_generated                                                              ; lpm_divide_l9m      ; work         ;
-;             |sign_div_unsign_akh:divider| ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod1|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider                                  ; sign_div_unsign_akh ; work         ;
-;                |alt_u_div_94f:divider|    ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod1|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider            ; alt_u_div_94f       ; work         ;
-;       |lpm_divide:Mod2|                   ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod2                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_l9m:auto_generated|  ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod2|lpm_divide_l9m:auto_generated                                                              ; lpm_divide_l9m      ; work         ;
-;             |sign_div_unsign_akh:divider| ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod2|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider                                  ; sign_div_unsign_akh ; work         ;
-;                |alt_u_div_94f:divider|    ; 46 (46)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod2|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider            ; alt_u_div_94f       ; work         ;
-;       |lpm_divide:Mod3|                   ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod3                                                                                            ; lpm_divide          ; work         ;
-;          |lpm_divide_4bm:auto_generated|  ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod3|lpm_divide_4bm:auto_generated                                                              ; lpm_divide_4bm      ; work         ;
-;             |sign_div_unsign_plh:divider| ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider                                  ; sign_div_unsign_plh ; work         ;
-;                |alt_u_div_77f:divider|    ; 75 (75)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider            ; alt_u_div_77f       ; work         ;
-+-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                              ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                  ; Entity Name         ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; |tpf_test_01                              ; 1855 (0)            ; 64 (0)                    ; 0           ; 0            ; 0       ; 0         ; 8    ; 0            ; |tpf_test_01                                                                                                                         ; tpf_test_01         ; work         ;
+;    |display_updater:inst11|               ; 1225 (198)          ; 25 (25)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11                                                                                                  ; display_updater     ; work         ;
+;       |lpm_divide:Div0|                   ; 179 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div0                                                                                  ; lpm_divide          ; work         ;
+;          |lpm_divide_2jm:auto_generated|  ; 179 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div0|lpm_divide_2jm:auto_generated                                                    ; lpm_divide_2jm      ; work         ;
+;             |sign_div_unsign_qlh:divider| ; 179 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div0|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                        ; sign_div_unsign_qlh ; work         ;
+;                |alt_u_div_87f:divider|    ; 179 (179)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div0|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider  ; alt_u_div_87f       ; work         ;
+;       |lpm_divide:Div10|                  ; 32 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div10                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_hhm:auto_generated|  ; 32 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div10|lpm_divide_hhm:auto_generated                                                   ; lpm_divide_hhm      ; work         ;
+;             |sign_div_unsign_9kh:divider| ; 32 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div10|lpm_divide_hhm:auto_generated|sign_div_unsign_9kh:divider                       ; sign_div_unsign_9kh ; work         ;
+;                |alt_u_div_64f:divider|    ; 32 (32)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div10|lpm_divide_hhm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_64f:divider ; alt_u_div_64f       ; work         ;
+;       |lpm_divide:Div11|                  ; 110 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div11                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_0jm:auto_generated|  ; 110 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div11|lpm_divide_0jm:auto_generated                                                   ; lpm_divide_0jm      ; work         ;
+;             |sign_div_unsign_olh:divider| ; 110 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div11|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider                       ; sign_div_unsign_olh ; work         ;
+;                |alt_u_div_47f:divider|    ; 110 (110)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div11|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider|alt_u_div_47f:divider ; alt_u_div_47f       ; work         ;
+;       |lpm_divide:Div1|                   ; 30 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div1                                                                                  ; lpm_divide          ; work         ;
+;          |lpm_divide_hhm:auto_generated|  ; 30 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div1|lpm_divide_hhm:auto_generated                                                    ; lpm_divide_hhm      ; work         ;
+;             |sign_div_unsign_9kh:divider| ; 30 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div1|lpm_divide_hhm:auto_generated|sign_div_unsign_9kh:divider                        ; sign_div_unsign_9kh ; work         ;
+;                |alt_u_div_64f:divider|    ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div1|lpm_divide_hhm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_64f:divider  ; alt_u_div_64f       ; work         ;
+;       |lpm_divide:Div2|                   ; 109 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div2                                                                                  ; lpm_divide          ; work         ;
+;          |lpm_divide_0jm:auto_generated|  ; 109 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div2|lpm_divide_0jm:auto_generated                                                    ; lpm_divide_0jm      ; work         ;
+;             |sign_div_unsign_olh:divider| ; 109 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div2|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider                        ; sign_div_unsign_olh ; work         ;
+;                |alt_u_div_47f:divider|    ; 109 (109)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div2|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider|alt_u_div_47f:divider  ; alt_u_div_47f       ; work         ;
+;       |lpm_divide:Div9|                   ; 189 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div9                                                                                  ; lpm_divide          ; work         ;
+;          |lpm_divide_2jm:auto_generated|  ; 189 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div9|lpm_divide_2jm:auto_generated                                                    ; lpm_divide_2jm      ; work         ;
+;             |sign_div_unsign_qlh:divider| ; 189 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div9|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                        ; sign_div_unsign_qlh ; work         ;
+;                |alt_u_div_87f:divider|    ; 189 (189)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Div9|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider  ; alt_u_div_87f       ; work         ;
+;       |lpm_divide:Mod0|                   ; 170 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod0                                                                                  ; lpm_divide          ; work         ;
+;          |lpm_divide_5bm:auto_generated|  ; 170 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod0|lpm_divide_5bm:auto_generated                                                    ; lpm_divide_5bm      ; work         ;
+;             |sign_div_unsign_qlh:divider| ; 170 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod0|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider                        ; sign_div_unsign_qlh ; work         ;
+;                |alt_u_div_87f:divider|    ; 170 (170)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod0|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider  ; alt_u_div_87f       ; work         ;
+;       |lpm_divide:Mod3|                   ; 208 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod3                                                                                  ; lpm_divide          ; work         ;
+;          |lpm_divide_5bm:auto_generated|  ; 208 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod3|lpm_divide_5bm:auto_generated                                                    ; lpm_divide_5bm      ; work         ;
+;             |sign_div_unsign_qlh:divider| ; 208 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod3|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider                        ; sign_div_unsign_qlh ; work         ;
+;                |alt_u_div_87f:divider|    ; 208 (208)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|display_updater:inst11|lpm_divide:Mod3|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider  ; alt_u_div_87f       ; work         ;
+;    |number2digit:inst4|                   ; 571 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4                                                                                                      ; number2digit        ; work         ;
+;       |lpm_divide:Div0|                   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div0                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_ihm:auto_generated|  ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div0|lpm_divide_ihm:auto_generated                                                        ; lpm_divide_ihm      ; work         ;
+;             |sign_div_unsign_akh:divider| ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div0|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider                            ; sign_div_unsign_akh ; work         ;
+;                |alt_u_div_94f:divider|    ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div0|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider      ; alt_u_div_94f       ; work         ;
+;       |lpm_divide:Div1|                   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div1                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_ihm:auto_generated|  ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div1|lpm_divide_ihm:auto_generated                                                        ; lpm_divide_ihm      ; work         ;
+;             |sign_div_unsign_akh:divider| ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div1|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider                            ; sign_div_unsign_akh ; work         ;
+;                |alt_u_div_94f:divider|    ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div1|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider      ; alt_u_div_94f       ; work         ;
+;       |lpm_divide:Div2|                   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div2                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_ihm:auto_generated|  ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div2|lpm_divide_ihm:auto_generated                                                        ; lpm_divide_ihm      ; work         ;
+;             |sign_div_unsign_akh:divider| ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div2|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider                            ; sign_div_unsign_akh ; work         ;
+;                |alt_u_div_94f:divider|    ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div2|lpm_divide_ihm:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider      ; alt_u_div_94f       ; work         ;
+;       |lpm_divide:Div3|                   ; 74 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div3                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_1jm:auto_generated|  ; 74 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div3|lpm_divide_1jm:auto_generated                                                        ; lpm_divide_1jm      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 74 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider                            ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_77f:divider|    ; 74 (74)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider      ; alt_u_div_77f       ; work         ;
+;       |lpm_divide:Div4|                   ; 158 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div4                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_4jm:auto_generated|  ; 158 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div4|lpm_divide_4jm:auto_generated                                                        ; lpm_divide_4jm      ; work         ;
+;             |sign_div_unsign_slh:divider| ; 158 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div4|lpm_divide_4jm:auto_generated|sign_div_unsign_slh:divider                            ; sign_div_unsign_slh ; work         ;
+;                |alt_u_div_c7f:divider|    ; 158 (158)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Div4|lpm_divide_4jm:auto_generated|sign_div_unsign_slh:divider|alt_u_div_c7f:divider      ; alt_u_div_c7f       ; work         ;
+;       |lpm_divide:Mod0|                   ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod0                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_l9m:auto_generated|  ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod0|lpm_divide_l9m:auto_generated                                                        ; lpm_divide_l9m      ; work         ;
+;             |sign_div_unsign_akh:divider| ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod0|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider                            ; sign_div_unsign_akh ; work         ;
+;                |alt_u_div_94f:divider|    ; 46 (46)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod0|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider      ; alt_u_div_94f       ; work         ;
+;       |lpm_divide:Mod1|                   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod1                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_l9m:auto_generated|  ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod1|lpm_divide_l9m:auto_generated                                                        ; lpm_divide_l9m      ; work         ;
+;             |sign_div_unsign_akh:divider| ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod1|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider                            ; sign_div_unsign_akh ; work         ;
+;                |alt_u_div_94f:divider|    ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod1|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider      ; alt_u_div_94f       ; work         ;
+;       |lpm_divide:Mod2|                   ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod2                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_l9m:auto_generated|  ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod2|lpm_divide_l9m:auto_generated                                                        ; lpm_divide_l9m      ; work         ;
+;             |sign_div_unsign_akh:divider| ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod2|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider                            ; sign_div_unsign_akh ; work         ;
+;                |alt_u_div_94f:divider|    ; 46 (46)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod2|lpm_divide_l9m:auto_generated|sign_div_unsign_akh:divider|alt_u_div_94f:divider      ; alt_u_div_94f       ; work         ;
+;       |lpm_divide:Mod3|                   ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod3                                                                                      ; lpm_divide          ; work         ;
+;          |lpm_divide_4bm:auto_generated|  ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod3|lpm_divide_4bm:auto_generated                                                        ; lpm_divide_4bm      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 75 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider                            ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_77f:divider|    ; 75 (75)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|number2digit:inst4|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider      ; alt_u_div_77f       ; work         ;
+;    |pll3:inst|                            ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll3:inst                                                                                                               ; pll3                ; work         ;
+;       |altpll:altpll_component|           ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll3:inst|altpll:altpll_component                                                                                       ; altpll              ; work         ;
+;          |pll3_altpll:auto_generated|     ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll3:inst|altpll:altpll_component|pll3_altpll:auto_generated                                                            ; pll3_altpll         ; work         ;
+;    |pll_1:inst10|                         ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll_1:inst10                                                                                                            ; pll_1               ; work         ;
+;       |altpll:altpll_component|           ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll_1:inst10|altpll:altpll_component                                                                                    ; altpll              ; work         ;
+;          |pll_1_altpll:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|pll_1:inst10|altpll:altpll_component|pll_1_altpll:auto_generated                                                        ; pll_1_altpll        ; work         ;
+;    |reloj:inst1|                          ; 59 (59)             ; 39 (39)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tpf_test_01|reloj:inst1                                                                                                             ; reloj               ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -366,11 +385,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
-; 4:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |tpf_test_01|reloj:inst1|hs[6]           ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |tpf_test_01|reloj:inst1|fms[8]          ;
-; 4:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |tpf_test_01|reloj:inst1|sec[5]          ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |tpf_test_01|reloj:inst1|hs[5]           ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |tpf_test_01|reloj:inst1|ms[14]          ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |tpf_test_01|reloj:inst1|sec[4]          ;
 ; 4:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |tpf_test_01|reloj:inst1|min[2]          ;
-; 16:1               ; 4 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |tpf_test_01|display_updater:inst11|Mux0 ;
+; 16:1               ; 4 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |tpf_test_01|display_updater:inst11|Mux3 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
 
 
@@ -1123,6 +1142,52 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Mod3 ;
++------------------------+----------------+-----------------------------------------------+
+; Parameter Name         ; Value          ; Type                                          ;
++------------------------+----------------+-----------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                       ;
+; LPM_WIDTHD             ; 6              ; Untyped                                       ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                       ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                       ;
+; LPM_PIPELINE           ; 0              ; Untyped                                       ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                       ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                       ;
+; CBXI_PARAMETER         ; lpm_divide_5bm ; Untyped                                       ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                       ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                       ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                    ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                  ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                  ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                ;
++------------------------+----------------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div10 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 6              ; Untyped                                        ;
+; LPM_WIDTHD             ; 4              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_hhm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Mod0 ;
 +------------------------+----------------+-----------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                          ;
@@ -1168,31 +1233,31 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Mod0 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 7              ; Untyped                            ;
-; LPM_WIDTHD             ; 4              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_l9m ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div11 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 4              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_0jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-----------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div0 ;
+; Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div9 ;
 +------------------------+----------------+-----------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                          ;
 +------------------------+----------------+-----------------------------------------------+
@@ -1211,190 +1276,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                  ;
 ; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                ;
 +------------------------+----------------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div2 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 7              ; Untyped                            ;
-; LPM_WIDTHD             ; 4              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_ihm ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Mod2 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 7              ; Untyped                            ;
-; LPM_WIDTHD             ; 4              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_l9m ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div1 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 7              ; Untyped                            ;
-; LPM_WIDTHD             ; 4              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_ihm ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Mod1 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 7              ; Untyped                            ;
-; LPM_WIDTHD             ; 4              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_l9m ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div0 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 7              ; Untyped                            ;
-; LPM_WIDTHD             ; 4              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_ihm ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div4 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 15             ; Untyped                            ;
-; LPM_WIDTHD             ; 7              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_4jm ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Div3 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 15             ; Untyped                            ;
-; LPM_WIDTHD             ; 4              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_1jm ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: reloj:inst1|lpm_divide:Mod3 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 15             ; Untyped                            ;
-; LPM_WIDTHD             ; 4              ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_4bm ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1421,19 +1302,42 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Mod0 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 7              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_l9m ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div5 ;
+; Parameter Settings for Inferred Entity Instance: display_updater:inst11|lpm_divide:Div0 ;
 +------------------------+----------------+-----------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                          ;
 +------------------------+----------------+-----------------------------------------------+
 ; LPM_WIDTHN             ; 32             ; Untyped                                       ;
-; LPM_WIDTHD             ; 4              ; Untyped                                       ;
+; LPM_WIDTHD             ; 6              ; Untyped                                       ;
 ; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                       ;
 ; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                       ;
 ; LPM_PIPELINE           ; 0              ; Untyped                                       ;
 ; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                       ;
 ; MAXIMIZE_SPEED         ; 5              ; Untyped                                       ;
-; CBXI_PARAMETER         ; lpm_divide_0jm ; Untyped                                       ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                       ;
 ; CARRY_CHAIN            ; MANUAL         ; Untyped                                       ;
 ; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                       ;
 ; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                    ;
@@ -1441,6 +1345,190 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                  ;
 ; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                ;
 +------------------------+----------------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div2 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 7              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_ihm ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Mod2 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 7              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_l9m ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div1 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 7              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_ihm ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Mod1 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 7              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_l9m ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div0 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 7              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_ihm ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div4 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 15             ; Untyped                                   ;
+; LPM_WIDTHD             ; 7              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_4jm ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Div3 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 15             ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_1jm ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: number2digit:inst4|lpm_divide:Mod3 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 15             ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_4bm ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1479,21 +1567,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA SCLR          ; 47                          ;
 ;     SCLR              ; 11                          ;
 ;     plain             ; 6                           ;
-; cycloneiii_lcell_comb ; 1413                        ;
-;     arith             ; 455                         ;
+; cycloneiii_lcell_comb ; 1857                        ;
+;     arith             ; 569                         ;
 ;         1 data inputs ; 4                           ;
-;         2 data inputs ; 124                         ;
-;         3 data inputs ; 327                         ;
-;     normal            ; 958                         ;
-;         0 data inputs ; 90                          ;
-;         1 data inputs ; 21                          ;
-;         2 data inputs ; 528                         ;
+;         2 data inputs ; 143                         ;
+;         3 data inputs ; 422                         ;
+;     normal            ; 1288                        ;
+;         0 data inputs ; 116                         ;
+;         1 data inputs ; 27                          ;
+;         2 data inputs ; 716                         ;
 ;         3 data inputs ; 37                          ;
-;         4 data inputs ; 282                         ;
+;         4 data inputs ; 392                         ;
 ; cycloneiii_pll        ; 2                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 41.00                       ;
-; Average LUT depth     ; 29.08                       ;
+; Max LUT depth         ; 43.40                       ;
+; Average LUT depth     ; 32.30                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1512,32 +1600,36 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Nov 10 00:54:06 2018
+    Info: Processing started: Sat Nov 10 19:11:39 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tpf_test_01 -c tpf_test_01
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/display_updater.v
-    Info (12023): Found entity 1: display_updater File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 3
+    Info (12023): Found entity 1: display_updater File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file pll_1.v
-    Info (12023): Found entity 1: pll_1 File: C:/Users/ariel/tpf-team-7/test_tpf/pll_1.v Line: 39
+    Info (12023): Found entity 1: pll_1 File: C:/Users/newtonis/tpf-team-7/test_tpf/pll_1.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file pll_2.v
-    Info (12023): Found entity 1: pll_2 File: C:/Users/ariel/tpf-team-7/test_tpf/pll_2.v Line: 39
+    Info (12023): Found entity 1: pll_2 File: C:/Users/newtonis/tpf-team-7/test_tpf/pll_2.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file test_display.v
-    Info (12023): Found entity 1: test_display File: C:/Users/ariel/tpf-team-7/test_tpf/test_display.v Line: 1
+    Info (12023): Found entity 1: test_display File: C:/Users/newtonis/tpf-team-7/test_tpf/test_display.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reloj.v
-    Info (12023): Found entity 1: reloj File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 1
+    Info (12023): Found entity 1: reloj File: C:/Users/newtonis/tpf-team-7/test_tpf/reloj.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pll3.v
-    Info (12023): Found entity 1: pll3 File: C:/Users/ariel/tpf-team-7/test_tpf/pll3.v Line: 39
+    Info (12023): Found entity 1: pll3 File: C:/Users/newtonis/tpf-team-7/test_tpf/pll3.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file tpf_test_01.bdf
     Info (12023): Found entity 1: tpf_test_01
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/number2digit.v
+    Info (12023): Found entity 1: number2digit File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 1
 Info (12127): Elaborating entity "tpf_test_01" for the top level hierarchy
+Warning (275012): Pin "b" overlaps another pin, block, or symbol
+Warning (275011): Block or symbol "reloj" of instance "inst1" overlaps another block or symbol
 Info (12128): Elaborating entity "display_updater" for hierarchy "display_updater:inst11"
-Warning (10230): Verilog HDL assignment warning at display_updater.v(40): truncated value with size 32 to match size of target (11) File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 40
-Warning (10230): Verilog HDL assignment warning at display_updater.v(44): truncated value with size 32 to match size of target (11) File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 44
+Warning (10230): Verilog HDL assignment warning at display_updater.v(48): truncated value with size 32 to match size of target (11) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 48
+Warning (10230): Verilog HDL assignment warning at display_updater.v(52): truncated value with size 32 to match size of target (11) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 52
 Info (12128): Elaborating entity "pll_1" for hierarchy "pll_1:inst10"
-Info (12128): Elaborating entity "altpll" for hierarchy "pll_1:inst10|altpll:altpll_component" File: C:/Users/ariel/tpf-team-7/test_tpf/pll_1.v Line: 90
-Info (12130): Elaborated megafunction instantiation "pll_1:inst10|altpll:altpll_component" File: C:/Users/ariel/tpf-team-7/test_tpf/pll_1.v Line: 90
-Info (12133): Instantiated megafunction "pll_1:inst10|altpll:altpll_component" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/pll_1.v Line: 90
+Info (12128): Elaborating entity "altpll" for hierarchy "pll_1:inst10|altpll:altpll_component" File: C:/Users/newtonis/tpf-team-7/test_tpf/pll_1.v Line: 90
+Info (12130): Elaborated megafunction instantiation "pll_1:inst10|altpll:altpll_component" File: C:/Users/newtonis/tpf-team-7/test_tpf/pll_1.v Line: 90
+Info (12133): Instantiated megafunction "pll_1:inst10|altpll:altpll_component" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/pll_1.v Line: 90
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "2000"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -1593,25 +1685,26 @@ Info (12133): Instantiated megafunction "pll_1:inst10|altpll:altpll_component" w
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll_1_altpll.v
-    Info (12023): Found entity 1: pll_1_altpll File: C:/Users/ariel/tpf-team-7/test_tpf/db/pll_1_altpll.v Line: 29
+    Info (12023): Found entity 1: pll_1_altpll File: C:/Users/newtonis/tpf-team-7/test_tpf/db/pll_1_altpll.v Line: 29
 Info (12128): Elaborating entity "pll_1_altpll" for hierarchy "pll_1:inst10|altpll:altpll_component|pll_1_altpll:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
+Info (12128): Elaborating entity "number2digit" for hierarchy "number2digit:inst4"
+Warning (10230): Verilog HDL assignment warning at number2digit.v(9): truncated value with size 32 to match size of target (4) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 9
+Warning (10230): Verilog HDL assignment warning at number2digit.v(10): truncated value with size 32 to match size of target (4) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 10
+Warning (10230): Verilog HDL assignment warning at number2digit.v(12): truncated value with size 32 to match size of target (4) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 12
+Warning (10230): Verilog HDL assignment warning at number2digit.v(13): truncated value with size 32 to match size of target (4) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 13
+Warning (10230): Verilog HDL assignment warning at number2digit.v(15): truncated value with size 32 to match size of target (4) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 15
+Warning (10230): Verilog HDL assignment warning at number2digit.v(16): truncated value with size 32 to match size of target (4) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 16
+Warning (10230): Verilog HDL assignment warning at number2digit.v(18): truncated value with size 32 to match size of target (4) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 18
+Warning (10230): Verilog HDL assignment warning at number2digit.v(19): truncated value with size 32 to match size of target (4) File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 19
 Info (12128): Elaborating entity "reloj" for hierarchy "reloj:inst1"
-Warning (10230): Verilog HDL assignment warning at reloj.v(28): truncated value with size 32 to match size of target (15) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 28
-Warning (10230): Verilog HDL assignment warning at reloj.v(32): truncated value with size 32 to match size of target (7) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 32
-Warning (10230): Verilog HDL assignment warning at reloj.v(36): truncated value with size 32 to match size of target (7) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 36
-Warning (10230): Verilog HDL assignment warning at reloj.v(40): truncated value with size 32 to match size of target (7) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 40
-Warning (10230): Verilog HDL assignment warning at reloj.v(53): truncated value with size 32 to match size of target (4) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 53
-Warning (10230): Verilog HDL assignment warning at reloj.v(54): truncated value with size 32 to match size of target (4) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 54
-Warning (10230): Verilog HDL assignment warning at reloj.v(56): truncated value with size 32 to match size of target (4) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 56
-Warning (10230): Verilog HDL assignment warning at reloj.v(57): truncated value with size 32 to match size of target (4) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 57
-Warning (10230): Verilog HDL assignment warning at reloj.v(59): truncated value with size 32 to match size of target (4) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 59
-Warning (10230): Verilog HDL assignment warning at reloj.v(60): truncated value with size 32 to match size of target (4) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 60
-Warning (10230): Verilog HDL assignment warning at reloj.v(62): truncated value with size 32 to match size of target (4) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 62
-Warning (10230): Verilog HDL assignment warning at reloj.v(63): truncated value with size 32 to match size of target (4) File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 63
+Warning (10230): Verilog HDL assignment warning at reloj.v(27): truncated value with size 32 to match size of target (15) File: C:/Users/newtonis/tpf-team-7/test_tpf/reloj.v Line: 27
+Warning (10230): Verilog HDL assignment warning at reloj.v(31): truncated value with size 32 to match size of target (7) File: C:/Users/newtonis/tpf-team-7/test_tpf/reloj.v Line: 31
+Warning (10230): Verilog HDL assignment warning at reloj.v(35): truncated value with size 32 to match size of target (7) File: C:/Users/newtonis/tpf-team-7/test_tpf/reloj.v Line: 35
+Warning (10230): Verilog HDL assignment warning at reloj.v(39): truncated value with size 32 to match size of target (7) File: C:/Users/newtonis/tpf-team-7/test_tpf/reloj.v Line: 39
 Info (12128): Elaborating entity "pll3" for hierarchy "pll3:inst"
-Info (12128): Elaborating entity "altpll" for hierarchy "pll3:inst|altpll:altpll_component" File: C:/Users/ariel/tpf-team-7/test_tpf/pll3.v Line: 90
-Info (12130): Elaborated megafunction instantiation "pll3:inst|altpll:altpll_component" File: C:/Users/ariel/tpf-team-7/test_tpf/pll3.v Line: 90
-Info (12133): Instantiated megafunction "pll3:inst|altpll:altpll_component" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/pll3.v Line: 90
+Info (12128): Elaborating entity "altpll" for hierarchy "pll3:inst|altpll:altpll_component" File: C:/Users/newtonis/tpf-team-7/test_tpf/pll3.v Line: 90
+Info (12130): Elaborated megafunction instantiation "pll3:inst|altpll:altpll_component" File: C:/Users/newtonis/tpf-team-7/test_tpf/pll3.v Line: 90
+Info (12133): Instantiated megafunction "pll3:inst|altpll:altpll_component" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/pll3.v Line: 90
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "5000"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -1667,147 +1760,167 @@ Info (12133): Instantiated megafunction "pll3:inst|altpll:altpll_component" with
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll3_altpll.v
-    Info (12023): Found entity 1: pll3_altpll File: C:/Users/ariel/tpf-team-7/test_tpf/db/pll3_altpll.v Line: 29
+    Info (12023): Found entity 1: pll3_altpll File: C:/Users/newtonis/tpf-team-7/test_tpf/db/pll3_altpll.v Line: 29
 Info (12128): Elaborating entity "pll3_altpll" for hierarchy "pll3:inst|altpll:altpll_component|pll3_altpll:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (278001): Inferred 14 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Mod0" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div1" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Mod0" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 54
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div0" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Div2" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 59
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Mod2" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 60
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Div1" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 56
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Mod1" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 57
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Div0" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 53
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Div4" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 63
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Div3" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 62
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "reloj:inst1|Mod3" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 63
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div2" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div5" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 55
-Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Mod0" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Mod0" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
+Info (278001): Inferred 17 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Mod3" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div10" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Mod0" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 62
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div1" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 62
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div11" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div9" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div2" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 62
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Mod0" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 10
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "display_updater:inst11|Div0" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 62
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Div2" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 15
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Mod2" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 16
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Div1" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 12
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Mod1" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 13
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Div0" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 9
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Div4" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 19
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Div3" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 18
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "number2digit:inst4|Mod3" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 19
+Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Mod3" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Mod3" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
     Info (12134): Parameter "LPM_WIDTHN" = "32"
     Info (12134): Parameter "LPM_WIDTHD" = "6"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_5bm.tdf
-    Info (12023): Found entity 1: lpm_divide_5bm File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_5bm.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_5bm File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_5bm.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_qlh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_qlh File: C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_qlh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_qlh File: C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_qlh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_87f.tdf
-    Info (12023): Found entity 1: alt_u_div_87f File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_87f.tdf Line: 26
+    Info (12023): Found entity 1: alt_u_div_87f File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_87f.tdf Line: 26
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_7pc.tdf
-    Info (12023): Found entity 1: add_sub_7pc File: C:/Users/ariel/tpf-team-7/test_tpf/db/add_sub_7pc.tdf Line: 22
+    Info (12023): Found entity 1: add_sub_7pc File: C:/Users/newtonis/tpf-team-7/test_tpf/db/add_sub_7pc.tdf Line: 22
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_8pc.tdf
-    Info (12023): Found entity 1: add_sub_8pc File: C:/Users/ariel/tpf-team-7/test_tpf/db/add_sub_8pc.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Div1" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Div1" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
+    Info (12023): Found entity 1: add_sub_8pc File: C:/Users/newtonis/tpf-team-7/test_tpf/db/add_sub_8pc.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Div10" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Div10" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
     Info (12134): Parameter "LPM_WIDTHN" = "6"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_hhm.tdf
-    Info (12023): Found entity 1: lpm_divide_hhm File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_hhm.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_hhm File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_hhm.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_9kh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_9kh File: C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_9kh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_9kh File: C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_9kh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_64f.tdf
-    Info (12023): Found entity 1: alt_u_div_64f File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_64f.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "reloj:inst1|lpm_divide:Mod0" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 54
-Info (12133): Instantiated megafunction "reloj:inst1|lpm_divide:Mod0" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 54
-    Info (12134): Parameter "LPM_WIDTHN" = "7"
-    Info (12134): Parameter "LPM_WIDTHD" = "4"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_l9m.tdf
-    Info (12023): Found entity 1: lpm_divide_l9m File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_l9m.tdf Line: 24
-Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_akh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_akh File: C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_akh.tdf Line: 24
-Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_94f.tdf
-    Info (12023): Found entity 1: alt_u_div_94f File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_94f.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Div0" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Div0" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-    Info (12134): Parameter "LPM_WIDTHN" = "32"
-    Info (12134): Parameter "LPM_WIDTHD" = "6"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_2jm.tdf
-    Info (12023): Found entity 1: lpm_divide_2jm File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_2jm.tdf Line: 24
-Info (12130): Elaborated megafunction instantiation "reloj:inst1|lpm_divide:Div2" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 59
-Info (12133): Instantiated megafunction "reloj:inst1|lpm_divide:Div2" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 59
-    Info (12134): Parameter "LPM_WIDTHN" = "7"
-    Info (12134): Parameter "LPM_WIDTHD" = "4"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ihm.tdf
-    Info (12023): Found entity 1: lpm_divide_ihm File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_ihm.tdf Line: 24
-Info (12130): Elaborated megafunction instantiation "reloj:inst1|lpm_divide:Div4" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 63
-Info (12133): Instantiated megafunction "reloj:inst1|lpm_divide:Div4" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 63
-    Info (12134): Parameter "LPM_WIDTHN" = "15"
-    Info (12134): Parameter "LPM_WIDTHD" = "7"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_4jm.tdf
-    Info (12023): Found entity 1: lpm_divide_4jm File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_4jm.tdf Line: 24
-Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_slh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_slh File: C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_slh.tdf Line: 24
-Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_c7f.tdf
-    Info (12023): Found entity 1: alt_u_div_c7f File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_c7f.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "reloj:inst1|lpm_divide:Div3" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 62
-Info (12133): Instantiated megafunction "reloj:inst1|lpm_divide:Div3" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 62
-    Info (12134): Parameter "LPM_WIDTHN" = "15"
-    Info (12134): Parameter "LPM_WIDTHD" = "4"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_1jm.tdf
-    Info (12023): Found entity 1: lpm_divide_1jm File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_1jm.tdf Line: 24
-Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_plh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_plh File: C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_plh.tdf Line: 24
-Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_77f.tdf
-    Info (12023): Found entity 1: alt_u_div_77f File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "reloj:inst1|lpm_divide:Mod3" File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 63
-Info (12133): Instantiated megafunction "reloj:inst1|lpm_divide:Mod3" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/reloj.v Line: 63
-    Info (12134): Parameter "LPM_WIDTHN" = "15"
-    Info (12134): Parameter "LPM_WIDTHD" = "4"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_4bm.tdf
-    Info (12023): Found entity 1: lpm_divide_4bm File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_4bm.tdf Line: 24
-Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Div2" File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
-Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Div2" with the following parameter: File: C:/Users/ariel/tpf-team-7/test_tpf/output_files/display_updater.v Line: 54
+    Info (12023): Found entity 1: alt_u_div_64f File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_64f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Div11" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Div11" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
     Info (12134): Parameter "LPM_WIDTHN" = "32"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_0jm.tdf
-    Info (12023): Found entity 1: lpm_divide_0jm File: C:/Users/ariel/tpf-team-7/test_tpf/db/lpm_divide_0jm.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_0jm File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_0jm.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_olh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_olh File: C:/Users/ariel/tpf-team-7/test_tpf/db/sign_div_unsign_olh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_olh File: C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_olh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_47f.tdf
-    Info (12023): Found entity 1: alt_u_div_47f File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_47f.tdf Line: 26
+    Info (12023): Found entity 1: alt_u_div_47f File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_47f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Div9" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Div9" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 66
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_2jm.tdf
+    Info (12023): Found entity 1: lpm_divide_2jm File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_2jm.tdf Line: 24
+Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Div2" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 62
+Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Div2" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 62
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "number2digit:inst4|lpm_divide:Mod0" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 10
+Info (12133): Instantiated megafunction "number2digit:inst4|lpm_divide:Mod0" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 10
+    Info (12134): Parameter "LPM_WIDTHN" = "7"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_l9m.tdf
+    Info (12023): Found entity 1: lpm_divide_l9m File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_l9m.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_akh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_akh File: C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_akh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_94f.tdf
+    Info (12023): Found entity 1: alt_u_div_94f File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_94f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "display_updater:inst11|lpm_divide:Div0" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 62
+Info (12133): Instantiated megafunction "display_updater:inst11|lpm_divide:Div0" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/display_updater.v Line: 62
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "number2digit:inst4|lpm_divide:Div2" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 15
+Info (12133): Instantiated megafunction "number2digit:inst4|lpm_divide:Div2" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 15
+    Info (12134): Parameter "LPM_WIDTHN" = "7"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ihm.tdf
+    Info (12023): Found entity 1: lpm_divide_ihm File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_ihm.tdf Line: 24
+Info (12130): Elaborated megafunction instantiation "number2digit:inst4|lpm_divide:Div4" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 19
+Info (12133): Instantiated megafunction "number2digit:inst4|lpm_divide:Div4" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 19
+    Info (12134): Parameter "LPM_WIDTHN" = "15"
+    Info (12134): Parameter "LPM_WIDTHD" = "7"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_4jm.tdf
+    Info (12023): Found entity 1: lpm_divide_4jm File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_4jm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_slh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_slh File: C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_slh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_c7f.tdf
+    Info (12023): Found entity 1: alt_u_div_c7f File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_c7f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "number2digit:inst4|lpm_divide:Div3" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 18
+Info (12133): Instantiated megafunction "number2digit:inst4|lpm_divide:Div3" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 18
+    Info (12134): Parameter "LPM_WIDTHN" = "15"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_1jm.tdf
+    Info (12023): Found entity 1: lpm_divide_1jm File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_1jm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_plh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_plh File: C:/Users/newtonis/tpf-team-7/test_tpf/db/sign_div_unsign_plh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_77f.tdf
+    Info (12023): Found entity 1: alt_u_div_77f File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "number2digit:inst4|lpm_divide:Mod3" File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 19
+Info (12133): Instantiated megafunction "number2digit:inst4|lpm_divide:Mod3" with the following parameter: File: C:/Users/newtonis/tpf-team-7/test_tpf/output_files/number2digit.v Line: 19
+    Info (12134): Parameter "LPM_WIDTHN" = "15"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_4bm.tdf
+    Info (12023): Found entity 1: lpm_divide_4bm File: C:/Users/newtonis/tpf-team-7/test_tpf/db/lpm_divide_4bm.tdf Line: 24
 Info (286030): Timing-Driven Synthesis is running
 Info (17016): Found the following redundant logic cells in design
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_9_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 96
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_10_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 36
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_11_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 41
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_12_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 46
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_13_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 51
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_9_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 96
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_10_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 36
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_11_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 41
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_12_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 46
-    Info (17048): Logic cell "reloj:inst1|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_13_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 51
-    Info (17048): Logic cell "display_updater:inst11|lpm_divide:Div2|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider|alt_u_div_47f:divider|add_sub_29_result_int[0]~10" File: C:/Users/ariel/tpf-team-7/test_tpf/db/alt_u_div_47f.tdf Line: 136
+    Info (17048): Logic cell "display_updater:inst11|lpm_divide:Mod3|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider|op_13~8"
+    Info (17048): Logic cell "display_updater:inst11|lpm_divide:Mod3|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider|op_13~10"
+    Info (17048): Logic cell "display_updater:inst11|lpm_divide:Mod3|lpm_divide_5bm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider|add_sub_26_result_int[0]~14" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_87f.tdf Line: 121
+    Info (17048): Logic cell "display_updater:inst11|lpm_divide:Div11|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider|alt_u_div_47f:divider|add_sub_29_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_47f.tdf Line: 136
+    Info (17048): Logic cell "display_updater:inst11|lpm_divide:Div9|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider|op_13~8"
+    Info (17048): Logic cell "display_updater:inst11|lpm_divide:Div9|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider|op_13~10"
+    Info (17048): Logic cell "display_updater:inst11|lpm_divide:Div9|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider|add_sub_26_result_int[0]~14" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_87f.tdf Line: 121
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_9_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 96
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_10_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 36
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_11_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 41
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_12_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 46
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Mod3|lpm_divide_4bm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_13_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 51
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_9_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 96
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_10_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 36
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_11_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 41
+    Info (17048): Logic cell "number2digit:inst4|lpm_divide:Div3|lpm_divide_1jm:auto_generated|sign_div_unsign_plh:divider|alt_u_div_77f:divider|add_sub_12_result_int[0]~10" File: C:/Users/newtonis/tpf-team-7/test_tpf/db/alt_u_div_77f.tdf Line: 46
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1425 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1869 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 5 output pins
-    Info (21061): Implemented 1415 logic cells
+    Info (21061): Implemented 1859 logic cells
     Info (21065): Implemented 2 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 15 warnings
-    Info: Peak virtual memory: 4822 megabytes
-    Info: Processing ended: Sat Nov 10 00:54:24 2018
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:33
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
+    Info: Peak virtual memory: 4828 megabytes
+    Info: Processing ended: Sat Nov 10 19:11:55 2018
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:31
 
 
