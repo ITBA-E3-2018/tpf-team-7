@@ -48,3 +48,18 @@ This is the most advanced, and difficult to debug module. The objective, however
 When we developed this module we've got a problem. It was not possible, at least directly, to store all 640x800 bits on memory and then access to them, write them, or pass them from one module to another. So we worked hard to find a solution that didn't need that.
 The idea is to, in place, when each pixel is drawn, decide, if it will be drawn, or not. We tried to use a simple formula 
 
+\subsubsection*{The magic Lines}
+\begin{figure}[htbp]
+    \begin{center}
+    \includegraphics[scale=0.8]{dibujos/digitpng.png}
+    
+    \end{center}
+    
+    \label{fig:Pll}
+    \end{figure}
+
+We need to do different process when deciding when a digit will be drawn. There are three calculations:
+- Detect
+
+
+
