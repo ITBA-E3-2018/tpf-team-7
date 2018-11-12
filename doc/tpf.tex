@@ -1,0 +1,50 @@
+\newpage
+
+
+
+\subsection*{Module structure}
+\begin{figure}[htbp]
+    \begin{center}
+    \includegraphics[scale=0.8]{dibujos/estructura.png}
+    
+    \end{center}
+    
+    \label{fig:Estructura}
+    \end{figure}
+
+The project is organized in three modules:
+\begin{enumerate}
+\item Clock module: handles the clock reset/start/stop actions (via Buttons), and counts miliseconds, seconds, minutes and hours.
+\item Number to digit module: Receives the numbers from the clock and converts them to digit codes.
+\item Digit to Screen module: Gets the numbers and handles the Vga protocol. 
+\end{enumerate}
+
+
+\subsection*{Clock syncronization}
+\begin{figure}[htbp]
+    \begin{center}
+    \includegraphics[scale=0.8]{dibujos/pll.png}
+    
+    \end{center}
+    
+    \label{fig:Pll}
+    \end{figure}
+
+The project uses FPGA internal 50Mhz oscillator. Using two PLLs, the different frequencies needed for each module is generated
+
+\subsection*{Clock Module}
+
+This module recives button input and organizes the counting of the chronometer.
+Its output are the numbers of miliseconds, seconds, minutes and hours.
+It's implementation is very simple and it is not worth explaining it in detail.
+
+\subsection*{Number to Digit Module}
+
+This module recives the number inputs and converts them to digit codes. That digit code information represent which characetrers will be shown in screen. As there are also ':' character on screen, also there is a digit code 10, that represent that character.
+There are, in total 10 digits on screen.
+
+\subsection*{Digit to Screen Module}
+This is the most advanced, and difficult to debug module. The objective, however is simple: Show the digits communicated by the digit module on screen one after the other.
+When we developed this module we've got a problem. It was not possible, at least directly, to store all 640x800 bits on memory and then access to them, write them, or pass them from one module to another. So we worked hard to find a solution that didn't need that.
+The idea is to, in place, when each pixel is drawn, decide, if it will be drawn, or not. We tried to use a simple formula 
+

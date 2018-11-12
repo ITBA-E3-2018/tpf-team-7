@@ -1,0 +1,110 @@
+%% LyX 2.2.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\usepackage[T1]{fontenc}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\newcommand{\materia}[1]{\def\lamateria{#1}}
+\newcommand{\trabajo}[1]{\def\eltrabajo{#1}}
+\newcommand{\titulo}[1]{\def\eltitulo{#1}}
+\newcommand{\fecha}[1]{\def\lafecha{#1}}
+\newcommand{\grupo}[1]{\def\elgrupo{#1}}
+\usepackage{graphicx}
+
+
+
+
+%Vertical.
+\voffset			= -15.4mm	%Off-set vertical (1in + \voffset) respecto del borde superior del papel.
+\topmargin			= 0cm		%Desde el \hoffset hasta el inicio de la cabecera.
+\headheight			= 5mm		%Altura de la cabecera y pie de pagina.
+\headsep			= 5mm		%Distancia entre el fin de la cabecera y el inicio del cuerpo.
+\topskip			= 0mm		%Distancia del inicio del cuerpo hasta la primera linea de texto.
+\textheight			= 257mm 	%Altura de texto.
+\footskip			= 10mm		%Distancia de las partes inferiores del texto y el pie de pagina.
+\marginparpush		= 1mm		%Distancia entre los parrafos del margen (margin notes).
+
+%Horizontal
+\hoffset			= -5.4mm	%Off-set horizontal (1in + \hoffset) respecto del borde izquierdo del papel.
+\oddsidemargin		= 0cm		%Desde el \voffset hasta el inicio del texto.
+\textwidth			= 170mm		%Ancho de texto.
+\marginparsep		= 0mm		%Separacion entre el fin del texto y el inicio del margen.
+\marginparwidth		= 0mm		%Ancho del margen.
+\columnsep			= 5mm		%Separacion entre columas (cuando las haya).
+\columnseprule		= 0pt		%Ancho de la linea divisora de columnas (cuando las haya).
+
+%Parrafo
+\parindent			= 0mm		%Sangria al inicio del parrafo.
+\parskip			= 5mm		%Distancia entre parrados.
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\materia{Electr\'onica III}
+\titulo{Trabajo de Laboratorio $N^{\circ}$ 2}
+\fecha{18 de Octubre de 2018} %Aca va la fecha. Si lo dejan asi muestra la fecha de compilacion.
+\grupo{7}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+\begin{center}
+\rule{\textwidth}{1.5pt}
+\rule[0.5cm]{\textwidth}{1.5pt}
+\vfill
+\begin{minipage}[c]{\textwidth}
+\begin{center}
+\includegraphics[width=10cm]{LogoItba}\\
+{\large{Instituto Tecnol\'ogico de Buenos Aires}}\\
+{\small{\lafecha}}
+
+\vspace{2.5cm}
+
+\newlength{\titleWidth}
+\settowidth{\titleWidth}{\Huge{\lamateria}}
+
+{\normalsize{\eltitulo}}\\[0.7cm]
+\rule[2mm]{\titleWidth}{1pt}\\
+{\Huge{\lamateria}}\\
+\vspace*{1mm}
+\rule[3mm]{\titleWidth }{1pt}
+
+\vspace{0.5cm}
+
+Grupo \elgrupo
+
+\vspace{2cm}
+
+Porfesores:\\
+\vspace{0.5cm}
+Kevin Dewald\\
+Pablo Wundes\\
+
+\vspace{2.5cm}
+
+\begin{center}
+Alumnos:
+\end{center}
+\begin{tabular}{lcr}
+\emph{Nombre}&\emph{Legajo}\\
+Ariel Nowik & 58309\\
+Joaqu\'in Mestanza & 58288 \\
+Marcelo Regueira & 58300\\
+Martina M\'aspero & 57120 \\
+
+\end{tabular}
+
+\end{center}
+\end{minipage}
+\vfill
+\rule[-0.5cm]{\textwidth}{1.5pt}
+\rule{\textwidth}{1.5pt}
+\end{center}
+\end{titlepage}
