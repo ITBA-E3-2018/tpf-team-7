@@ -59,7 +59,15 @@ The idea is to, in place, when each pixel is drawn, decide, if it will be drawn,
     \end{figure}
 
 We need to do different process when deciding when a digit will be drawn. There are three calculations:
-- Detect
+- Detect if we are inside the clock drawing area.
+- Detect which digit [0:10] we are drawing. The ':' character count as a one digit
+- Detect which position of the digit we are drawing, and the if we are drawing it
+
+
+\subsubsection*{Testing}
+We made tests on verilog and gtkwave to check functions of clock and number to digit code. The Digit to screen mode does not have tests cause we considered more efficient to debug it 'on realilty cause we don't have any way to simulate a monitor.
+
+
 
 
 
