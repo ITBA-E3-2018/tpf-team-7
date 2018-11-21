@@ -27,7 +27,7 @@ The project is organized in three modules:
     
     \end{center}
     
-    \label{fig:Pll}
+    \label{fig:ClockSync}
     \end{figure}
 
 The project uses FPGA internal 50Mhz oscillator. Using two PLLs, the different frequencies needed for each module is generated
@@ -55,7 +55,7 @@ The idea is to, in place, when each pixel is drawn, decide, if it will be drawn,
     
     \end{center}
     
-    \label{fig:Pll}
+    \label{fig:Magic}
     \end{figure}
 
 We need to do different process when deciding when a digit will be drawn. There are three calculations:
@@ -85,7 +85,7 @@ Here we show a picture of digit2screen module gtkwave output, that was the most 
 
 \subsubsection*{Conclusion}
 
-This was a very challenging project. The hardest part, by far, was making the vga protocol to work, it delayed two days and we've got issues with cable conector. The other parts of the project, were pretty easy, and comparable with the projects done before in the semester 
+This was a very challenging project. The hardest part, by far, was making the vga protocol to work, it delayed two days and we've got issues with cable conector. The other parts of the project, were hard, but comparable with the projects done before in the semester 
 
 
 
