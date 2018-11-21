@@ -8,14 +8,14 @@ module reloj(rst, ss, clk, ms, sec,min ,hs);
 	output reg [6:0] min = 0;
 	output reg [6:0] hs = 0;
 	reg advance = 0;
-	reg ss_old = 0;
+	reg ss_old = 0; // start/stop
 	reg rst_old = 0;
 	
 	always @(posedge clk) begin
-		if (ss == 0 && ss_old == 1) begin
+		if (ss == 0 && ss_old == 1) begin // start/stop button falling edge
 			advance <= !advance;
 			
-		end else if (rst == 1 && rst_old == 0) begin
+		end else if (rst == 1 && rst_old == 0) begin // reset button rising edge
 			ms <= 0;
 			sec <= 0;
 			min <= 0;
